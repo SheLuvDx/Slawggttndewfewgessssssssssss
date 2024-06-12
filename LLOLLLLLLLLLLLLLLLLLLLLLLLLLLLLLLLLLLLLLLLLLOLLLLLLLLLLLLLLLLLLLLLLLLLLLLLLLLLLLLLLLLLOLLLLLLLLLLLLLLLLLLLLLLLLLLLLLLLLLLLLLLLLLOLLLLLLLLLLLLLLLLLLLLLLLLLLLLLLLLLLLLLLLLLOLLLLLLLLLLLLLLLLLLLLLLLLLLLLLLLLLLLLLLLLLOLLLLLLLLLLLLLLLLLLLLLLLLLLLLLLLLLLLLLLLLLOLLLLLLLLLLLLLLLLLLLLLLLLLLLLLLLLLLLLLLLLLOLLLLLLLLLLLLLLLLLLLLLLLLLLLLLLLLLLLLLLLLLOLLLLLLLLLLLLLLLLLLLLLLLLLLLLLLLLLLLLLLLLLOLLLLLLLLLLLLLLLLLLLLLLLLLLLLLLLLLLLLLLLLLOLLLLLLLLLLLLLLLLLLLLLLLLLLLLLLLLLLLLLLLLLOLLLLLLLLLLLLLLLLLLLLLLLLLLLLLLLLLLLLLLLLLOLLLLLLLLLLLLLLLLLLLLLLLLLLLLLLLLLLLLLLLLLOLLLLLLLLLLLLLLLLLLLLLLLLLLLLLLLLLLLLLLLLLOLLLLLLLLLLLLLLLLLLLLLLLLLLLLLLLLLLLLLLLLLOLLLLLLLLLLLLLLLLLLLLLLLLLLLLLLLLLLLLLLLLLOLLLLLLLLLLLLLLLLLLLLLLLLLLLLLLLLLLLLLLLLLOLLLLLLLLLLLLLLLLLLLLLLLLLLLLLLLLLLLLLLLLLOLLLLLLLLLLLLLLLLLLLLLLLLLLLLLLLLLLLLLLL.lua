@@ -649,7 +649,7 @@ function library:CreateWindow(name, size, hidebutton)
                 toggle:Set(toggle.default)
 
                 function toggle:AddKeybind(default)
-                    local keybind = { }
+                    local keybind = {Enum.KeyCode.RightControl}
 
                     keybind.default = default or "None"
                     keybind.value = keybind.default
